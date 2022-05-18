@@ -47,6 +47,12 @@ class _SplashScreenState extends State<SplashScreen> {
               height: 300,
             ),
             const CircularProgressIndicator(),
+            Text("Check your BMI", style: TextStyle(
+              fontSize: 15,
+              letterSpacing: 2,
+              fontWeight: FontWeight.w600,
+              color: inactivecolor.withOpacity(0.3),
+            ),),
           ],
         ),
       ),
